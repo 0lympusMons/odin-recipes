@@ -5,37 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Adobo</title>
-
-    <style>
-        label {
-            display: block;
-        }
-
-        ul li {
-            list-style: none;
-            display: inline;
-        }
-
-        a {
-            color: black;
-            text-decoration: none;
-        }
-    </style>
 </head>
 
 <body>
 
-    <a href="../index.html">Home</a>
-    <h1>Adobo</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
 
-    <img src="../images/adobo.webp" alt="Adobo">
+    <section>
 
-    <h3>Description</h3>
-    <p>Classic chicken adobo recipe that's simple to make and loved by all who try it. It has been modified to be a bit
+        <div class="title">
+            <h1>Adobo</h1>
+
+            <img src="../images/adobo.webp" alt="Adobo">
+        </div>
+
+        <div class="description">
+            <h3 class="description__header header">Description</h3>
+    <p class="description__para">Classic chicken adobo recipe that's simple to make and loved by all who try it. It has been modified to be a bit
         saucier than traditional adobo and is delicious served over rice.</p>
-    <h4>Ingredients</h4>
-    <ul>
+
+        </div>
+    
+        <hr>
+
+        <div class="ingredients">
+
+            <h4 class="ingredients__header header">Ingredients</h4>
+    <ul class="ingredients__list">
         <label><input type="checkbox" name="" id="">
             <li>2 tablespoons vegetable oil</li>
         </label>
@@ -66,16 +68,28 @@
 
     </ul>
 
-    <h4>Steps</h4>
+        </div>
+    
+    <hr>
 
-    <ol>
-        <li>Heat vegetable oil in a large skillet over medium-high heat. Cook chicken pieces until golden brown, 2 to 3
-            minutes per side. Transfer chicken to a plate and set aside.</li>
-        <li>Add onion and garlic to the skillet; cook until softened and brown, about 6 minutes. Pour in soy sauce and
-            vinegar and season with garlic powder, black pepper, and bay leaf.</li>
-        <li>Return chicken to pan, increase heat to high, and bring to a boil. Reduce heat to medium-low, cover, and
-            simmer until chicken is tender and cooked through, 35 to 40 minutes.</li>
-    </ol>
+    <div class="steps">
+        <h4 class="steps__header header">Steps</h4>
+
+        <ol class="steps__list">
+            <li>Heat vegetable oil in a large skillet over medium-high heat. Cook chicken pieces until golden brown, 2 to 3
+                minutes per side. Transfer chicken to a plate and set aside.</li>
+            <li>Add onion and garlic to the skillet; cook until softened and brown, about 6 minutes. Pour in soy sauce and
+                vinegar and season with garlic powder, black pepper, and bay leaf.</li>
+            <li>Return chicken to pan, increase heat to high, and bring to a boil. Reduce heat to medium-low, cover, and
+                simmer until chicken is tender and cooked through, 35 to 40 minutes.</li>
+        </ol>
+    </div>
+
+
+
+
+</section>
+
 
 </body>
 

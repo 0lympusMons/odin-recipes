@@ -1,0 +1,66 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    /* text-align: center; */
+}
+
+nav{
+    text-align: center;
+}
+
+img{
+    width: auto;
+    height: 20em;
+    border-radius: .5em;
+}
+
+label {
+    display: block;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    width: 95%;
+    margin: auto;
+}
+
+div{
+    margin: 2em 0;
+}
+
+.ingredients__list{
+    margin-left: 2em;
+}
+
+.ingredients__list li{
+    padding-left: 0.5em;
+}
+.steps__list{
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.steps__list li{
+    padding: 0.5em;
+}
+
+.steps__list li:nth-child(1){
+    padding-top: 0;
+}
+
+.header{
+    padding-bottom: 0.5em;
+}
+
